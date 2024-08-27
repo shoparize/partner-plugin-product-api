@@ -23,7 +23,7 @@ class Helper
     public function isAllow()
     {
         $header = strtoupper(str_replace('-', '_', 'Shoparize-Partner-Key'));
-        $shopId = $_SERVER['HTTP_' . $header] ?? null;
+        $shopId = isset($_SERVER['HTTP_' . $header]) ? $_SERVER['HTTP_' . $header] : null;
         if ($shopId != $this->shopId) {
             return false;
         }
