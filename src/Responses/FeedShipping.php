@@ -17,7 +17,7 @@ class FeedShipping
     /**
      * @param mixed $country
      */
-    public function setCountry($country): void
+    public function setCountry($country)
     {
         $this->country = $country;
     }
@@ -25,7 +25,7 @@ class FeedShipping
     /**
      * @param mixed $service
      */
-    public function setService($service): void
+    public function setService($service)
     {
         $this->service = $service;
     }
@@ -33,7 +33,7 @@ class FeedShipping
     /**
      * @param mixed $price
      */
-    public function setPrice($price): void
+    public function setPrice($price)
     {
         $this->price = $this->priceFormat($price);
     }

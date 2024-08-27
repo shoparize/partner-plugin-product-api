@@ -20,7 +20,7 @@ class Helper
     /**
      * @return bool
      */
-    public function isAllow(): bool
+    public function isAllow()
     {
         $header = strtoupper(str_replace('-', '_', 'Shoparize-Partner-Key'));
         $shopId = $_SERVER['HTTP_' . $header] ?? null;
@@ -36,7 +36,7 @@ class Helper
      * @param string $format
      * @return bool
      */
-    public function validateDate($date, $format = 'Y-m-d H:i:s'): bool
+    public function validateDate($date, $format = 'Y-m-d H:i:s')
     {
         $d = \DateTime::createFromFormat($format, $date);
 

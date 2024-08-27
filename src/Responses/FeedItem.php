@@ -58,7 +58,7 @@ class FeedItem
     /**
      * @param mixed $id
      */
-    public function setId($id): void
+    public function setId($id)
     {
         $this->id = $id;
     }
@@ -66,7 +66,7 @@ class FeedItem
     /**
      * @param mixed $title
      */
-    public function setTitle($title): void
+    public function setTitle($title)
     {
         $this->title = $title;
     }
@@ -74,7 +74,7 @@ class FeedItem
     /**
      * @param mixed $description
      */
-    public function setDescription($description): void
+    public function setDescription($description)
     {
         $this->description = $description;
     }
@@ -82,7 +82,7 @@ class FeedItem
     /**
      * @param mixed $link
      */
-    public function setLink($link): void
+    public function setLink($link)
     {
         $this->link = $link;
     }
@@ -90,7 +90,7 @@ class FeedItem
     /**
      * @param string $image
      */
-    public function setImage(string $image): void
+    public function setImage(string $image)
     {
         $this->images[] = $image;
     }
@@ -98,7 +98,7 @@ class FeedItem
     /**
      * @param mixed $mobile_link
      */
-    public function setMobileLink($mobile_link): void
+    public function setMobileLink($mobile_link)
     {
         $this->mobile_link = $mobile_link;
     }
@@ -106,7 +106,7 @@ class FeedItem
     /**
      * @param mixed $availability
      */
-    public function setAvailability($availability): void
+    public function setAvailability($availability)
     {
         $this->availability = $availability;
     }
@@ -114,7 +114,7 @@ class FeedItem
     /**
      * @param mixed $price
      */
-    public function setPrice($price): void
+    public function setPrice($price)
     {
         $this->price = $this->priceFormat($price);
     }
@@ -122,7 +122,7 @@ class FeedItem
     /**
      * @param mixed $brand
      */
-    public function setBrand($brand): void
+    public function setBrand($brand)
     {
         $this->brand = $brand;
     }
@@ -130,7 +130,7 @@ class FeedItem
     /**
      * @param mixed $gtin
      */
-    public function setGtin($gtin): void
+    public function setGtin($gtin)
     {
         $this->gtin = $gtin;
     }
@@ -138,7 +138,7 @@ class FeedItem
     /**
      * @param mixed $condition
      */
-    public function setCondition($condition): void
+    public function setCondition($condition)
     {
         $this->condition = $condition;
     }
@@ -146,7 +146,7 @@ class FeedItem
     /**
      * @param mixed $currency_code
      */
-    public function setCurrencyCode($currency_code): void
+    public function setCurrencyCode($currency_code)
     {
         $this->currency_code = $currency_code;
     }
@@ -154,7 +154,7 @@ class FeedItem
     /**
      * @param mixed $shipping_length
      */
-    public function setShippingLength($shipping_length): void
+    public function setShippingLength($shipping_length)
     {
         $this->shipping_length = $shipping_length;
     }
@@ -162,7 +162,7 @@ class FeedItem
     /**
      * @param mixed $shipping_width
      */
-    public function setShippingWidth($shipping_width): void
+    public function setShippingWidth($shipping_width)
     {
         $this->shipping_width = $shipping_width;
     }
@@ -170,7 +170,7 @@ class FeedItem
     /**
      * @param mixed $shipping_height
      */
-    public function setShippingHeight($shipping_height): void
+    public function setShippingHeight($shipping_height)
     {
         $this->shipping_height = $shipping_height;
     }
@@ -178,7 +178,7 @@ class FeedItem
     /**
      * @param mixed $shipping_weight
      */
-    public function setShippingWeight($shipping_weight): void
+    public function setShippingWeight($shipping_weight)
     {
         $this->shipping_weight = $shipping_weight;
     }
@@ -186,7 +186,7 @@ class FeedItem
     /**
      * @param mixed $size_unit
      */
-    public function setSizeUnit($size_unit): void
+    public function setSizeUnit($size_unit)
     {
         $this->size_unit = $size_unit;
     }
@@ -194,7 +194,7 @@ class FeedItem
     /**
      * @param mixed $sale_price
      */
-    public function setSalePrice($sale_price): void
+    public function setSalePrice($sale_price)
     {
         $this->sale_price = $this->priceFormat($sale_price);
     }
@@ -202,7 +202,7 @@ class FeedItem
     /**
      * @param FeedShipping $shipping
      */
-    public function setShipping(FeedShipping $shipping): void
+    public function setShipping(FeedShipping $shipping)
     {
         $this->shipping = $shipping;
     }
@@ -210,7 +210,7 @@ class FeedItem
     /**
      * @param mixed $weight_unit
      */
-    public function setWeightUnit($weight_unit): void
+    public function setWeightUnit($weight_unit)
     {
         $this->weight_unit = $weight_unit;
     }
@@ -218,7 +218,7 @@ class FeedItem
     /**
      * @param mixed $colors
      */
-    public function setColors($colors): void
+    public function setColors($colors)
     {
         $this->colors = $colors;
     }
@@ -226,7 +226,7 @@ class FeedItem
     /**
      * @param mixed $sizes
      */
-    public function setSizes($sizes): void
+    public function setSizes($sizes)
     {
         $this->sizes = $sizes;
     }
