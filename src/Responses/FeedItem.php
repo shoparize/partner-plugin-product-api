@@ -90,7 +90,7 @@ class FeedItem
     /**
      * @param string $image
      */
-    public function setImage(string $image)
+    public function setImage($image)
     {
         $this->images[] = $image;
     }
